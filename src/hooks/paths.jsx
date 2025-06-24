@@ -4,7 +4,7 @@ import { Bookmarks, Explore, Home, Lists, Messages, More, Notifications, Profile
 export const paths = {
     login: "/",
     home: "/",
-    explore: "/explore",         // ✅ to‘g‘ri
+    explore: "/explore",        
     notification: "/notification",
     messages: "/messages",
     bookmark: "/bookmark",

@@ -5,7 +5,7 @@ import { useContext } from 'react'
 import { Context } from '../context/Context'
 
 const Login = () => {
-  const { token, setToken } = useContext(Context)
+  const { setToken } = useContext(Context)
 
   function handleSubmit(e) {
     e.preventDefault()

@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom"
 import { navListRoute, paths } from "../hooks/paths"
-import { Home } from "../pages"
 import Navbar from "../modules/Navbar"
 import Sidebar from "../modules/Sidebar"
 

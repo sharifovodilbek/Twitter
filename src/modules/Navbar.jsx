@@ -12,14 +12,7 @@ const Navbar = () => {
       </div>
       <ul className='space-y-[20px] mb-[30px]'>
         {navListRoute.map(item => (
-          <NavLink
-            to={item.path}
-            key={item.id}
-            className={({ isActive }) =>
-              `flex items-center gap-[20px] p-2 rounded-md transition-colors
-     ${isActive ? "text-black font-bold bg-gray-200" : "text-gray-500 hover:text-black"}`
-            }
-          >
+          <NavLink to={item.path} key={item.id} className={({ isActive }) => `flex items-center gap-[20px] p-2 rounded-md transition-colors ${isActive ? "text-black font-bold bg-gray-200" : "text-gray-500 hover:text-black"}`}>
             <span className="w-[24px] h-[24px]">{item.icon}</span>
             <p>{item.title}</p>
           </NavLink>
